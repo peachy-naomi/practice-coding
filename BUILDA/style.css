@@ -1,0 +1,1048 @@
+:root{
+    --primarycolor:#003840;
+    --secondarycolor:#02BD85;
+    --tetiarycolor:#daf6ed;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#nav{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.40),rgba(0,0,0,0.40));
+    background-position: center;
+    background-size: center;
+    justify-content: center;
+    background-size:cover;
+    align-items: center;
+    padding: 10px;
+}
+#nav .navigate{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px;
+    margin: auto;
+    width: 90%;
+}
+#nav .navigate ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 5px;
+}
+.navigate ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #02BD85;
+    font-weight: 600;
+    padding: 10px;
+}
+li a:hover{
+    background-color: #003840;
+    transition: 1.5s;
+}
+.navigate a:hover{
+    color: #02BD85;
+    transition: 1.9s;
+}
+.logo{
+    width: 100px;
+    margin-top: -10px;
+    cursor: pointer;
+}
+.content{
+    width: 100%;
+    position: absolute;
+    color: #003840;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+.content h1{
+    font-size: 50px;
+    font-weight: 600;
+    background-color: rgba(255, 255, 255, 0.387);
+    /* width: 80%; */
+}
+button{
+    width: 150px;
+    height: 50px;
+    margin: 20px 5px;
+    border-radius: 20px;
+    color: #003840;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 600;
+}
+button:hover{
+    background: #02BD85;
+    transition: 1.5s;
+}
+#nav video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+@media(min-aspect-ratio:16/9){
+    #nav video{
+        width: 100%;
+        height: auto;
+    }
+}
+#build .buil{
+    text-align: center;
+    width: 40%;
+    margin-top: 60px;
+    margin-left: 420px;
+    height: 180px;
+}
+#service{
+    background-color:#02bd85d6;
+    padding: 10px 200px;
+}
+#service h1{
+    color: #003840;
+    text-align: center;
+}
+#service .our{
+    margin: 5px;
+    display: flex;
+}
+#service .our .best{
+    background-color: #ffff;
+    color:#003840;
+    width: 350px;
+    height: 200px;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+#service .our .best h3{
+    color: #003840;
+}
+#happy{
+    background-image: url(IMG/1893971ba9a37ef7ab0bb4d3f8b2811e.jpg);
+    background-size: cover;
+}
+#happy .happy-pro{
+    background-color: #00374085;
+}
+#happy .happy-pro .happier{
+    display: flex;
+    margin-left: 200px;
+}
+#happy .happy-pro .happier .hap{
+    display: flex;
+    margin: 20px;
+    width: 190px;
+    padding: 20px;
+}
+.hap p{
+    font-size: 50px;
+    margin-top: 8px;
+}
+.hap h3{
+    color: white;
+    padding: 10px;
+}
+#test{
+    background-color: #ffff;
+    padding: 10px 200px;
+}
+#test p{
+    color: #003840;
+}
+#test h1{
+    color:#003840;
+    text-align: center;
+}
+#test .testim .testimony h4{
+    color: #003840;
+}
+#test .testim{
+    display: flex;
+}
+#test .testim .testimony img{
+    border-radius: 50px;
+    height: 80px;
+    margin-left: 80px;
+}
+#test .testim .testimony{
+    background-color:white;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.129);
+    width: 350px;
+    /* height: 300px; */
+    padding: 30px;
+    margin: 10px;
+    border-radius: 20px;
+}
+#quick-links{
+    background-color:#003840;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#quick-links ul li{
+    list-style: none;
+}
+#quick-links ul li a{
+    text-decoration: none;
+    color: white;
+}
+#quick-links  h4{
+    color: white;
+}
+#quick-links .face ul {
+    margin: 20px;
+}
+.insta{
+    display: flex;
+    margin: 5px;
+    flex-direction: row;
+}
+#copy{
+    background-color: white;
+    height: 30px;
+    color: #003840;
+    text-align: center;
+}
+
+/* ABOUT SECTION */
+#about-us{
+    justify-content: center;
+    width: 100%;
+}
+#about{
+    background-color: #003840;
+    color: white;
+    padding: 30px 10px;
+    text-align:center ;
+}
+#about p{
+    color: white;
+}
+#about .us{
+    width: 50%;
+    justify-content: center;
+    margin:10px 340px;
+}
+#why{
+    width: 100%;
+    justify-content: center;
+    /* background-color: #003840; */
+    display: flex;
+    margin: 20px;
+}
+.choose{
+    margin: 10px 50px;
+    text-align: start;
+    width: 400px;
+}
+.choose ul li{
+    color: #003840;
+    margin-left: 40px;
+    /* text-align: center; */
+}
+.choose h4{
+    color: #003840;
+}
+#why img{
+    width: 400px;
+}
+#know{
+    text-align: center;
+    background-color:#003840;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+#know .know-items{
+    margin: 5px;
+    padding: 20px;
+}
+#know .know-items .vision{
+    border-radius: 20px;
+    background-color: white;
+    padding: 20px;
+    height: 300px;
+    width: 300px;
+}
+#know .know-items .mission{
+    border-radius: 20px;
+    background-color: #02BD85;
+    padding: 20px;
+    height: 300px;
+    width: 300px;
+}
+#know .know-items .goal{
+    border-radius: 20px;
+    background-color: white;
+    padding: 20px;
+    height: 300px;
+    width: 300px;
+}
+.know-items h4{
+    color: #003840;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+#review{
+    background-color: white;
+    width: 100%;
+    margin: 20px;
+    justify-content: center;
+}
+h4{
+    color:#fff;
+    text-align: center;
+    font-weight: 600;
+}
+#review  .users .rev img{
+    width: 60px;
+    height: 50px;
+    border-radius: 50px;
+}
+#review  .users .revi img{
+    width: 60px;
+    height: 50px;
+    border-radius: 50px;
+}
+#review .users{
+    display: flex;
+    justify-content: center;
+}
+#review .users .rev{
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+    background-color: #ffff;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px rgba(198, 188, 188, 0.526);
+    height: 300px;
+}
+#review .users .revi{
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+    background-color: #02BD85;
+    color: white;
+    border-radius: 20px;
+    height: 300px;
+}
+#review .users .rev:hover{
+    background-color: #02BD85;
+    box-shadow: none;
+}
+.rev p{
+    color:#003840;
+}
+/* QUOTE SECTION */
+#geta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#quote{
+    margin: 10px;
+    background-color: #02BD85;
+    padding: 20px;
+    border: 2px solid #02BD85;
+    border-radius: 20px;
+    border-radius: none;
+    width: 600px;
+}
+input{
+    width: 500px;
+    height: 30px;
+    margin: 10px 10px;
+    border:1px solid #02BD85;
+    border-radius: 5px;
+    padding: 10px;
+}
+.checkbox{
+    width: 20px;
+}
+.submit{
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    background-color: #003840;
+    color: white;
+    border-radius: 20px;
+}
+textarea{
+    border:1px solid #02BD85;
+    border-radius: 10px;
+    margin: 10px;
+    width: 500px;
+}
+#quote h1{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+#quote p{
+    color: #003840;
+}
+#quote select{
+    margin: 10px;
+    width: 500px;
+    padding: 10px;
+    border: 1px solid #02BD85;
+    border-radius: 5px;
+}
+a{
+    text-decoration: none;
+    color: #003840;
+    margin: 5px;
+}
+
+/* CONTACT SECTION */
+#contact{
+    background-color: white;
+    display: flex;
+    height: 100px;
+    margin-top: 30px;
+    margin-left: 180px;
+}
+#contact .con{
+    margin: 10px;
+    justify-content: center;
+}
+h1{
+    color: #003840;
+    font-size: 18px;
+    text-align: center;
+}
+p{
+    color:#003840;
+}
+#do{
+    background-color: #02BD85;
+}
+#do .dont{
+    padding: 20px;
+}
+#do h1{
+    color: #003840;
+    text-align: center;
+}
+#do h2{
+    color: #003840;
+    text-align: center;
+}
+.do-form{
+    text-align: center;
+}
+#do .do-form input{
+    height: 40px;
+    width: 400px;
+    padding: 5px;
+    margin: 10px;
+}
+.send{
+    background-color: #003840;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+}
+.send:hover{
+    background-color: #ffff;
+    color: #003840;
+    transition: 1.5s;
+}
+.do-form .area textarea{
+    height: 40px;
+    width: 400px;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* PROJECT SECTION */
+#navigation{
+    background-color: #ffff;
+}
+#navigation .navigate{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px;
+    margin: auto;
+    width: 90%;
+}
+#navigation .navigate ul li{
+    list-style: none;
+    /* display: flex; */
+    display: inline-block;
+    margin: 5px;
+}
+.logo{
+    width: 100px;
+    margin-top: -10px;
+    cursor: pointer;
+}
+#navigation .navigate ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #02BD85;
+    /* display: flex; */
+    font-weight: 600;
+    padding: 10px;
+}
+li a:hover{
+    background-color: #003840;
+    transition: 0.5s;
+}
+.navigate a:hover{
+    color: #02BD85;
+}
+#port .ports{
+    padding-top: 130px;
+}
+#port h4{
+    text-align: center;
+    background-color: white;
+    color: #003840;
+}
+#port .all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#port .ports h4{
+    background-color:#00374037;
+    color: #ffff;
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+    width: 400px;
+}
+#port .folio{
+    background-image: url(IMG/ad44f0ffee01346246417989b99a5521.jpg);
+    background-size: cover;
+    height: 320px;
+    width: 400px;
+}
+#port .foli{
+    background-image: url(IMG/e7799c716f6d159380a4050d34e48517.jpg);
+    background-size: cover;
+    height: 320px;
+    width: 400px;
+}
+#port .fol{
+    background-image: url(IMG/43c05f1189c02595b15223e22c9cc530.jpg);
+    background-size: cover;
+    height: 320px;
+    width: 400px;
+}
+#port .foll{
+    background-image: url(IMG/4caef06e44c92489097e85bb66665087_1.jpg);
+    background-size: cover;
+    height: 350px;
+    width: 400px;
+}
+#port .folii{
+    background-image: url(IMG/51fafaa2a90ca466b390d8f0c3fdf648_1.jpg);
+    background-size: cover;
+    height: 350px;
+    width: 400px;
+}
+#port .fols{
+    background-image: url(IMG/5f052cc14e47188392ec40a140dc53d5.jpg);
+    background-size: cover;
+    height: 350px;
+    width: 400px;
+}
+#port .port-img img{
+    width: 90px;
+}
+.pics{
+    display: flex;
+    justify-content: center;
+}
+.long{
+    display: flex;
+    justify-content: center;
+}
+
+
+@media(max-width:640px){
+    body{
+        max-width: 640px;
+        overflow-x: hidden;
+    }
+    .content{
+        width: 75%;
+    }
+    .content h1{
+        font-size: 35px;
+        background-color: rgba(255, 255, 255, 0.113);
+    }
+    button{
+        width: 150px;
+        height: 50px;
+    }
+    #nav .navigate ul li{
+        display: none;
+    }
+    #build .buil{
+        text-align: center;
+        width: 70%;
+        margin-top: 10px;
+        margin-left: 20px;
+        height: 300px;
+    }
+    #service .our{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #service .our .best{
+        width: 200px;
+    }
+    #happy .happy-pro .happier{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 10px;
+    }
+    #happy .happy-pro .happier .hap{
+        display: flex;
+        margin: 3px;
+        width: 190px;
+        padding: 5px;
+    }
+    .hap p{
+        font-size: 50px;
+        color: white;
+        margin-top: 8px;
+    }
+    #test{
+        padding: 10px 10px;
+        height: 800px;
+    }
+    #test .testim{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #test .testim .testimony img{
+        border-radius: 50px;
+        height: 80px;
+    }
+    #test .testim .testimony{
+        width: 230px;
+        height: 300px;
+        padding: 10px;
+    }
+    #quick-links{
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        font-weight: 400;
+        text-align: left;
+        line-height: 1.5;
+    }
+    .face ul {
+        padding: 20px;
+    }
+    .insta{
+        display: flex;
+        margin: 5px;
+        flex-direction: row;
+    }
+    /* ABOUT SECTION */
+    #about{
+        padding: 30px 10px;
+        text-align:center ;
+    }
+    #about .us{
+         width: 280px;
+    }
+    #know{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #know .know-items{
+        margin: 10px;
+    }
+    #know .know-items .vision{
+        padding: 20px;
+        height: 300px;
+        width: 250px;
+    }
+    #know .know-items .mission{
+        padding: 20px;
+        height: 300px;
+        width: 250px;
+    }
+    #know .know-items .goal{
+        padding: 20px;
+        height: 300px;
+        width: 250px;
+    }
+    #why{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .choose{
+        background-color: white;
+        margin: 10px 50px;
+        text-align: start;
+        width: 330px;
+    }
+    #why img{
+        width: 400px;
+    }
+    #review  .users .rev img{
+        width: 60px;
+        height: 50px;
+        border-radius: 50px;
+    }
+    #review .users{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #review .users .rev{
+        padding: 10px;
+        width: 270px;
+    }
+    #review .users .revi{
+        margin-left: -19px;
+        padding: 10px;
+        width: 270px;
+    }
+    /* QUOTE SECTION */
+    #quote{
+        width: 300px;
+    }
+    input{
+        width: 250px;
+        height: 30px;
+    }
+    .checkbox{
+        width: 20px;
+    }
+    .submit{
+        width: 200px;
+        height: 40px;
+    }
+    textarea{
+        width: 250px;
+    }
+    #quote select{
+        width: 250px;
+    }
+    a{
+        text-decoration: none;
+        color: #003840;
+        margin: 5px;
+    }
+
+        /* PROJECT SECTION */
+    #navigation .navigate{
+        display: none;
+    }
+    #navigation .navigate ul li{
+        display: block;
+        margin: 10px;
+    }
+    #port .all{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #port .ports h4{
+        width: 300px;
+        text-align: center;
+        color: white;
+        font-size: 22px;
+        padding: 10px;
+    }
+    /* PORT PICTURES */
+    #port .folio{
+        height: 320px;
+        width: 300px;
+    }
+    #port .foli{
+        height: 320px;
+        width: 300px;
+    }
+    #port .fol{
+        height: 320px;
+        width: 300px;
+    }
+    #port .foll{
+        height: 350px;
+        width: 300px;
+    }
+    #port .folii{
+        height: 350px;
+        width: 300px;
+    }
+    #port .fols{
+        height: 350px;
+        width: 300px;
+    }
+    .pics{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .long{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    /* CONTACT SECTION */
+    #contact{
+        display: flex;
+        flex-wrap: wrap;
+        height: 250px;
+        margin-left: 10px;
+    }
+    #do h1{
+        font-size: 17px;
+    }
+    #do h2{
+        font-size: 17px;
+    }
+    #do .do-form input{
+        height: 40px;
+        width: 250px;
+    }
+    .send{
+        width: 100px;
+        height: 40px;
+    }
+    .do-form .area textarea{
+        height: 40px;
+        width: 250px;
+    }
+    
+
+}    
+
+@media(max-width:920px){
+    body{
+        max-width: 920px;
+        overflow-x: hidden;
+    }
+    .content{
+        width: 100%;
+    }
+    .content h1{
+        font-size: 50px;
+        background-color: rgba(255, 255, 255, 0.113);
+    }
+    #service{
+        padding: 10px 10px;
+    }
+    #service h1{
+        color: #003840;
+        margin-left:-80px;
+    }
+    #service .our{
+        margin: 5px;
+        display: flex;
+    }
+    #service .our .best{
+        /* width: 300px; */
+        height: 250px;
+    }
+    #service .ours{
+        margin: 5px;
+        display: flex;
+    }
+    #service .ours .bestt{
+        height: 270px;
+        width: 300px;
+        margin-left: 7px;
+    }
+    #test{
+        /* padding: 10px 0px; */
+        /* height: 900px; */
+    }
+    #test .testim{
+        display: flex;
+        margin-left: -50px;
+    }
+    #test .testim .testimony img{
+        border-radius: 50px;
+        height: 80px;
+    }
+    #test .testim .testimony{
+        /* width: 350px; */
+        height: 250px;
+        padding: 10px;
+    }
+    #quick-links{
+        display: flex;
+    }
+    .insta{
+        display: flex;
+        margin: 5px;
+    }
+    /* ABOUT SECTION */
+    #about{
+        padding: 30px 10px;
+        text-align:center ;
+    }
+    #about .us{
+        margin-left: 30px;
+        width: 80%;
+    }
+    #know{
+        display: flex;
+    }
+    #know .know-items{
+        margin: 5px;
+    }
+    #know .know-items .vision{
+        padding: 20px;
+        height: 350px;
+        width: 300px;
+    }
+    #know .know-items .mission{
+        padding: 20px;
+        height: 350px;
+        width: 300px;
+    }
+    #know .know-items .goal{
+        padding: 20px;
+        height: 350px;
+        width: 300px;
+    }
+    #why{
+        display: flex;
+        margin: 10px;
+    }
+    .choose{
+        text-align: start;
+        width: 290px;
+    }
+    #why img{
+        width: 400px;
+    }
+    #review .users{
+        display: flex;
+        margin: 10px;
+    }
+    #review .users .rev{
+        padding: 10px;
+        width: 300px;
+        height: 300px;
+    }
+    #review .users .revi{
+        padding: 10px;
+        width: 300px;
+        height: 300px;
+    }
+
+    /* QUOTE SECTION */
+    #quote{
+        width: 350px;
+        margin-left: 60px;
+    }
+    input{
+        width: 250px;
+        height: 30px;
+    }
+    .checkbox{
+        width: 20px;
+    }
+    .submit{
+        width: 200px;
+        height: 40px;
+    }
+    textarea{
+        width: 250px;
+    }
+    #quote select{
+        width: 250px;
+    }
+    a{
+        text-decoration: none;
+        color: #003840;
+        margin: 5px;
+    }
+        /* PROJECT SECTION */
+    #navigation .navigate{
+        display: flex;
+        margin: 2px;
+    }
+    #port .all{
+        display: flex;
+        margin: 10px;
+    }
+    #port .ports h4{
+        padding: 10px;
+        width: 400px;
+        display: flex;
+    }
+    /* PORT IMAGES */
+    #port .folio{
+        height: 320px;
+        width: 440px;
+    }
+    #port .foli{
+        height: 320px;
+        width: 440px;
+    }
+    #port .fol{
+        height: 320px;
+        width: 440px;
+    }
+    #port .foll{
+        height: 350px;
+        width: 440px;
+    }
+    #port .folii{
+        height: 350px;
+        width: 440px;
+    }
+    #port .fols{
+        height: 350px;
+        width: 440px;
+    }
+    .pics{
+        display: flex;
+        margin: 10px;
+    }
+    .long{
+        display: flex;
+        margin: 10px;
+    }
+    /* CONTACT SECTION */
+    #contact{
+        display: flex;
+        /* height: 250px; */
+        margin-left: 10px;
+    }
+    #do h1{
+        font-size: 17px;
+    }
+    #do h2{
+        font-size: 17px;
+    }
+    #do .do-form input{
+        height: 40px;
+        width: 250px;
+    }
+    .send{
+        width: 100px;
+        height: 40px;
+    }
+    .do-form .area textarea{
+        height: 40px;
+        width: 250px;
+    }
+
+}    
